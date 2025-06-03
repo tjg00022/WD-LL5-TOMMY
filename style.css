@@ -47,3 +47,12 @@ img {
    - Combine with Bootstrap utilities like p-3, mb-4, text-center
    - Ask AI: “Add a subtle zoom effect on image hover”
 */
+
+.tile-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
